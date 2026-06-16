@@ -6,8 +6,8 @@
     <title>Harbinger</title>
     
 <script type="module">
-import init, * as bindings from '/harbinger-gui-d28cd006b93ac9ce.js';
-const wasm = await init({ module_or_path: '/harbinger-gui-d28cd006b93ac9ce_bg.wasm' });
+import init, * as bindings from '/harbinger-gui-afbc74b3e95edf6d.js';
+const wasm = await init({ module_or_path: '/harbinger-gui-afbc74b3e95edf6d_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -40,7 +40,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
             text-align: center;
         }
     </style>
-<link rel="modulepreload" href="/harbinger-gui-d28cd006b93ac9ce.js" crossorigin="anonymous" integrity="sha384-Fkbl0flCbSrf2xX+zUesYBllTQl6zRuUmwm0KDrzev2SMaV6TgIgzyMp4zVITrXX"><link rel="preload" href="/harbinger-gui-d28cd006b93ac9ce_bg.wasm" crossorigin="anonymous" integrity="sha384-f8dEcJQCHxLX3vzRelb7D0diUOFz0U5zbcZsSiWlGRERKECWj0KE/k7/a4w+FS1e" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/harbinger-gui-afbc74b3e95edf6d.js" crossorigin="anonymous" integrity="sha384-TzsniXrWTk6bNzBHZeqgCOUEjMMe9w26nWmYDkaA2/bHyHSdocjVnyd+PtAGj7d4"><link rel="preload" href="/harbinger-gui-afbc74b3e95edf6d_bg.wasm" crossorigin="anonymous" integrity="sha384-VqQs1A4xQhbBNJxqEfWmxlNbL1nXJ7UgBHKn8OCvMz1cvL/ArDcfjBGao0NZQ7fc" as="fetch" type="application/wasm"></head>
 <body>
     <canvas id="harbinger_canvas"></canvas>
     <div class="centered" id="loading_text">
